@@ -1,6 +1,6 @@
 require("full-border"):setup()
 require("eza-preview"):setup({
-	level = 20,
+	level = 10,
 	follow_symlinks = true,
 	dereference = false,
 })
