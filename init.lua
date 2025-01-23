@@ -4,7 +4,7 @@ require("eza-preview"):setup({
 	follow_symlinks = true,
 	dereference = false,
 })
-
+--
 require("yatline"):setup({
 	section_separator = { open = "", close = "" },
 	part_separator = { open = "", close = "" },
