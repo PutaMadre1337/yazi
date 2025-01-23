@@ -1,5 +1,11 @@
 [icon]
 prepend_dirs = [
+  { name = "cmd", text = "" },
+  { name = "internal", text = "" },
+
+  { name = "assets", text = "" },
+  { name = "bin", text = "" },
+
   { name = "Github", text = "" },
   { name = "Books", text = "󱉟" },
   { name = "Notes", text = "" },
