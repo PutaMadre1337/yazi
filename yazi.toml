@@ -22,3 +22,13 @@ prepend_previewers = [
 	{ mime = "application/x-xz",            run = "ouch" },
   { name = "*/", run = "eza-preview" },
 ]
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*"
+run  = "git"
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*/"
+run  = "git"

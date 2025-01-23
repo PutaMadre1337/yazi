@@ -1,3 +1,4 @@
+require("git"):setup()
 require("full-border"):setup()
 require("eza-preview"):setup({
 	level = 10,
