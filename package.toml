@@ -1,5 +1,5 @@
 [plugin]
-deps = [{ use = "yazi-rs/plugins:full-border", rev = "71c4fc2" }, { use = "dedukun/relative-motions", rev = "df97039" }, { use = "pirafrank/what-size", rev = "6791caa" }, { use = "Ape/open-with-cmd", rev = "a80d1cf" }, { use = "ahkohd/eza-preview", rev = "5ef05bc" }, { use = "yazi-rs/plugins:git", rev = "6418698" }]
+deps = [{ use = "yazi-rs/plugins:full-border", rev = "71c4fc2" }, { use = "dedukun/relative-motions", rev = "df97039" }, { use = "pirafrank/what-size", rev = "6791caa" }, { use = "Ape/open-with-cmd", rev = "a80d1cf" }, { use = "ahkohd/eza-preview", rev = "5ef05bc" }, { use = "yazi-rs/plugins:git", rev = "6418698" }, { use = "imsi32/yatline", rev = "9328205" } , { use = "Lil-Dank/lazygit", rev = "c82794f" }]
 
 [flavor]
 deps = []
