@@ -335,7 +335,7 @@ desc = "run lazygit"
 
 [[manager.prepend_keymap]]
 on   = "P"
-run  = "plugin --sync smart-paste"
+run  = "plugin smart-paste"
 desc = "Paste into the hovered directory or CWD"
 
 [[manager.prepend_keymap]]
