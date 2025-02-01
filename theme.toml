@@ -1,14 +1,14 @@
 [icon]
 prepend_dirs = [
+  { name = "Development", text = "" },
+  { name = "Notes", text = "" },
+
   { name = "cmd", text = "" },
   { name = "internal", text = "" },
-
   { name = "assets", text = "" },
   { name = "bin", text = "" },
-
   { name = "Github", text = "" },
   { name = "Books", text = "󱉟" },
-  { name = "Notes", text = "" },
   { name = "Coding", text = "" },
   { name = "Golang", text = "" },
   { name = "archive", text = "" },
