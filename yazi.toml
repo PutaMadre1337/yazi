@@ -12,6 +12,7 @@ prepend_previewers = [
   { mime = "application/x-7z-compressed", run = "ouch" },
   { mime = "application/x-rar", run = "ouch" },
   { mime = "application/x-xz", run = "ouch" },
+  { name = "*.md", run = "glow" },
   { name = "*/", run = "eza-preview" },
 ]
 
@@ -28,10 +29,6 @@ run = "git"
 [manager]
 linemode = "size_and_mtime"
 
-#To make it work, make sure you've:
-#Installed socat and can be found in your $PATH Enabled and configured the ipc socket to /tmp/mpv.sock, that is, include:
-#input-ipc-server=/tmp/mpv.sock
-#in your ~/.config/mpv/mpv.conf
 [[opener.add-sub]]
 run = ''' echo sub-add "'$0'" | socat - /tmp/mpv.sock '''
 desc = "Add sub to MPV"

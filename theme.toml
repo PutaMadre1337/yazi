@@ -14,4 +14,5 @@ prepend_dirs = [
   { name = "archive", text = "" },
   { name = "CLI", text = "" },
   { name = "Web", text = "󰖟" },
+  { name = "DevOps", text = "" },
 ]
