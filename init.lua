@@ -1,11 +1,15 @@
+require("full-border"):setup({
+	type = ui.Border.ROUNDED,
+})
+
 require("git"):setup()
-require("full-border"):setup()
+
 require("eza-preview"):setup({
 	level = 10,
 	follow_symlinks = true,
 	dereference = false,
 })
---
+
 require("yatline"):setup({
 	section_separator = { open = "", close = "" },
 	part_separator = { open = "", close = "" },
